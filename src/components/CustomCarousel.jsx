@@ -37,7 +37,7 @@ const CustomCarousel = () => {
                 }
             },
             {
-                breakpoint: 375,
+                breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -58,12 +58,12 @@ const CustomCarousel = () => {
     
     return (
         <>
-        <Box className="hero" position={"relative"}>
+        <Box position={"relative"}>
                 <Container maxW="1400px">
                     <Heading color={"#0E2368"} textAlign={{base:"center", lg:"left"}}>
                             Latest Articles
                     </Heading>
-                    <Box marginTop={"20px"} py={"20px"} display={"flex"} flexDirection={"column"}>
+                    <Box marginTop={"20px"} py={"20px"}>
                         <Slider ref={slider} {...settings}>
                             {
                                 cards.map(card => (
