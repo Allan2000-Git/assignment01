@@ -39,8 +39,8 @@ const CustomCarousel = () => {
             {
             breakpoint: 375,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
             }
         ]
